@@ -1,5 +1,3 @@
-
-# Tener el máximo número de eventos en un salón sin que choquen sus horarios
 # Algoritmo Greedy
 
 eventos = {
@@ -7,6 +5,12 @@ eventos = {
     "evento2": [1,2],
     "evento3": [2,3]
 }
+
+##@author:      Montiel Aviles Axel Fernando
+##@date:        04/05/2022
+##@brief:       Ordena los eventos para tener el mayor numero posible sin que sus horarios choquen
+##@param  valor Los eventos a organizar
+
 
 def ordenar_eventos(eventos):
     eventos_ordenados = []
