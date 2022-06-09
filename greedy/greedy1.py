@@ -1,10 +1,12 @@
-
-# Problema para elegir la cantidad de monedas más optima
-# para una cantidad
-
 # Algoritmo Greedy
 
-def cantidad_monedas(valor):
+##@author:      Montiel Aviles Axel Fernando
+##@date:        04/05/2022
+##@brief:       Funcion para elegir la cantidad de monedas más optima para una cantidad de dinero dada
+##@param  valor La cantidad de dinero
+##@return monedas_seleccionadas Las monedas usadas para devolver la cantidad solicitada
+
+def cantidad_monedas(valor):##O=n
     
     monedas = [1, 2, 5, 10, 20] # Definimos arreglo con la denominacion de las monedas
     monedas_seleccionadas = []
