@@ -5,6 +5,12 @@
 import random
 import time
 
+##@author:      Marín Montaño Josué
+##@date:        04/05/2022
+##@brief:       Busca un numero en una lista ordenada de numeros
+##@param  objetivo El numero a buscar
+##@param  lista La lista de numeros
+
 def búsqueda_binaria(lista, objetivo, límite_inferior=None, límite_superior=None):
     if límite_inferior is None:
         límite_inferior = 0 # Inicio de la lista
